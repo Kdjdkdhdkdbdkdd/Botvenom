@@ -138,9 +138,9 @@ bot('sendmessage',[
 if ($chat_id == $group) {
 if ($text) {
 if($text == '/start' or $text == '->' or $text == "Back"){
-bot('sendvideo', ['video' =>'https://t.me/kdhdkdbdkdbd/12', 'chat_id' => file_get_contents("ID"), 'caption' => "𝒘𝒆𝒍𝒄𝒐𝒎𝒆 , 
+bot('sendvideo', ['video' =>'https://t.me/kdhdkdbdkdbd/12', 'chat_id' => file_get_contents("ID"), 'caption' => "𝒘𝒆𝒍𝒄𝒐𝒎𝒆 ,\n 
 𝒊𝒏 𝒕𝒉𝒆 𝒄𝒉𝒆𝒄𝒌𝒆𝒓 𝒖𝒔𝒆𝒓 𝒏𝒂𝒎𝒆 𝒕𝒆𝒍𝒆𝒈𝒓𝒂𝒎 
-𝒅𝒆𝒗𝒆𝒍𝒐𝒑𝒆𝒅 𝒃𝒚 𝓶𝓪𝔁  🇪🇬 @Turbo_ismax .",
+𝒅𝒆𝒗𝒆𝒍𝒐𝒑𝒆𝒅 \n𝒃𝒚 𝓶𝓪𝔁  🇪🇬 @Turbo_ismax . ",
 'parse_mode' => "MarkDown", 
 'disable_web_page_preview' => true,
 'reply_markup' => json_encode(['resize_keyboard' => true, 'keyboard' => [
